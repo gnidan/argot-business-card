@@ -4,4 +4,4 @@ set -e
 rsvg-convert -f pdf -o Argot.pdf Argot.svg
 pdflatex -interaction=nonstopmode card.tex >/dev/null
 pdflatex -interaction=nonstopmode card.tex >/dev/null
-pdftoppm -jpeg -jpegopt quality=95 -r 6000 -singlefile card.pdf card
+# pdftoppm -jpeg -jpegopt quality=95 -r 6000 -singlefile card.pdf card
